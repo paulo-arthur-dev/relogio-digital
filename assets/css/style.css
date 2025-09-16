@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    transition: 1s ease-in-out;
+}
+
+.relogio {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    font-size: 8rem;
+    font-family: "Tourney", sans-serif;
+    /* font-family: "Major Mono Display", monospace; */
+    /* font-family: "Handjet", sans-serif; */
+    /* font-family: "Orbitron", sans-serif; */
+    /* font-family: "Rationale", sans-serif; */
+    font-weight: 200;
+    cursor: default;
+}
+
+.relogio div {
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.349);
+    padding: 10px;
+    text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.555);
+}
+
+.background-dia {
+    background: linear-gradient(135deg, #FFD194, #FFB347, #D1913C);
+    color: rgb(29, 29, 29);
+    transition: 1s ease-in-out;
+}
+
+.background-tarde {
+    background: linear-gradient(135deg, #FDC830, #F37335, #6483a1);
+    color: rgb(29, 29, 29);
+    transition: 1s ease-in-out;
+}
+
+.background-noite {
+    background: linear-gradient(135deg, #141E30, #243B55, #1B2735);
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+.background-madruga {
+    background: linear-gradient(135deg, #0B0C10, #1F2833, #2C5364);
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+
+
+@media (max-width: 615px) {
+    .relogio {
+        flex-direction: column;
+        align-items: center;
+
+        font-size: 30vw;
+    }
+
+    p {
+        display: none;
+    }
+}
