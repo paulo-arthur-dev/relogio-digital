@@ -61,6 +61,10 @@ body {
 
 
 @media (max-width: 615px) {
+    body {
+        height: 100dvh;
+    }
+    
     .relogio {
         flex-direction: column;
         align-items: center;
