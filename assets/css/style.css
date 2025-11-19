@@ -41,7 +41,7 @@ body {
 }
 
 .background-tarde {
-    background: linear-gradient(135deg, #FDC830, #F37335, #6483a1);
+    background: linear-gradient(135deg, #FDC830, #F37335, #1977d4);
     color: rgb(29, 29, 29);
     transition: 1s ease-in-out;
 }
